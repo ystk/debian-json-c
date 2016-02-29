@@ -1,0 +1,5 @@
+json-c (0.9-1) unstable; urgency=low
+
+  * Initial release (Closes: #557788)
+
+ -- fabien boucher <fabien.dot.boucher@gmail.com>  Wed, 11 Nov 2009 16:34:13 +0100

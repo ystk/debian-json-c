@@ -1,0 +1,5 @@
+usr/lib/libjson.la
+usr/lib/libjson.a
+usr/lib/libjson.so
+usr/include/*
+usr/lib/pkgconfig
