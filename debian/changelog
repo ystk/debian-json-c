@@ -1,3 +1,23 @@
+json-c (0.11-4+deb8u2) jessie-security; urgency=medium
+
+  * Non-maintainer upload by the LTS team.
+  * CVE-2020-12762: Fix integer overflow and out-of-bounds write via a
+    large JSON file, as demonstrated by printbuf_memappend. (Closes:
+    #960326). This version uses the upstream sanctioned patch version.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 31 May 2020 16:37:04 +0200
+
+json-c (0.11-4+deb8u1) jessie-security; urgency=medium
+
+  * Non-maintainer upload by the LTS team.
+  * CVE-2020-12762: Fix integer overflow and out-of-bounds write via a
+    large JSON file, as demonstrated by printbuf_memappend. (Closes:
+    #960326).
+  * debian/rules:
+    + Ensure test wrapper scripts (test/*.tests) are executable.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 31 May 2020 15:42:31 +0200
+
 json-c (0.11-4) unstable; urgency=low
 
   * Add upstream patch to fix two security vulnerabilitiesa (Closes: #744008)

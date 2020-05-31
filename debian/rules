@@ -43,6 +43,10 @@ override_dh_installdocs:
 	dh_installdocs -plibjson0 --link-doc=libjson-c2
 	dh_installdocs --remaining-packages -Xjquery.js
 
+override_dh_auto_test:
+	chmod a+x tests/*.test
+	VERBOSE=1 dh_auto_test
+
 override_dh_install:
 	dh_install --fail-missing -Xlibjson.la -Xlibjson-c.la
 
